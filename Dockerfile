@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:lts-slim
 
 RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh && rm -rf /var/lib/apt/lists/*
 
